@@ -6,7 +6,9 @@ public class Calculator {
     public double multiply(){
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Enter first number");
         double a = input.nextDouble();
+        System.out.println("Enter second number");
         double b = input.nextDouble();
 
         return a * b;
@@ -15,29 +17,30 @@ public class Calculator {
     public double divide(){
         Scanner input = new Scanner(System.in);
 
+        System.out.println("Enter first number");
         double a = input.nextDouble();
+        System.out.println("Enter second number");
         double b = input.nextDouble();
 
         return a / b;
     }
-    public double Addition() {
+    public double addition() {
 
         Scanner add = new Scanner(System.in);
-        System.out.println("Enter first Number");
-        double a = add.nextInt();
-        System.out.println("Enter second Number");
-        double b = add.nextInt();
+        System.out.println("Enter first number");
+        double a = add.nextDouble();
+        System.out.println("Enter second number");
+        double b = add.nextDouble();
 
         return a + b;
     }
-    public double Subtraction() {
+    public double subtraction() {
 
         Scanner sub = new Scanner(System.in);
-        System.out.println("Enter first Number");
-        double c = sub.nextInt();
-        System.out.println("Enter second Number");
-        double d = sub.nextInt();
-
+        System.out.println("Enter first number");
+        double c = sub.nextDouble();
+        System.out.println("Enter second number");
+        double d = sub.nextDouble();
         return c - d;
     }
 }
